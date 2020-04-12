@@ -1,0 +1,17 @@
+@import "./scss/color.scss";
+@import "./scss/forms.scss";
+@import "./components/header/navbar.scss";
+@import "./components/profile/profile.scss";
+@import "./components/home/Home.scss";
+body {
+  margin: 0;
+  font-family: calibre, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: $base-color;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

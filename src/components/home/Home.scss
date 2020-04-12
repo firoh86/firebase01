@@ -1,0 +1,134 @@
+// confeisones
+
+.post-card {
+  border-radius: 4px;
+  background-color: $forms-color;
+
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  margin: 1em;
+  max-width: 400px;
+}
+.post-header {
+  padding: 0 1em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-header-block {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.post-header-text {
+  padding: 0 1em;
+  color: $font-color;
+}
+.post-button {
+  width: 30px;
+  height: 30px;
+  background-color: $boton-1;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  color: $block-color;
+  padding: 0.2em;
+  font-weight: 600;
+  margin: 0.2em;
+  &:hover {
+    background-color: $boton-2;
+    transform: scale(0.95);
+  }
+}
+
+.home-post {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+.header-top {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  color: $boton-2;
+}
+.post-comments {
+  vertical-align: middle;
+  border-radius: 4px;
+  background-color: $block-color;
+  display: flex;
+  color: $font-color;
+  min-width: 90%;
+
+  padding: 0.4em 0.2em;
+  height: auto;
+  & p {
+    margin: 4px;
+    text-align: left;
+  }
+}
+.post-nickname {
+  color: $boton-1;
+  margin-right: 10px;
+}
+
+.button-show-comments {
+  height: 20px;
+  background-color: $boton-1;
+  border-radius: 25px;
+  font-weight: bold;
+  border: none;
+  padding: 0.4em;
+  font-weight: 600;
+  margin: 0 4px;
+  line-height: 50%;
+  min-width: 60px;
+  &:hover {
+    // background-color: $boton-2;
+    transform: scale(0.95);
+  }
+  &.purple {
+    background-color: $boton-2;
+  }
+}
+
+.posts-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4em auto;
+  width: 80vw;
+  padding: 15px;
+}
+.post-pic-container {
+  width: 60px;
+  height: 60px;
+
+  img {
+    border-radius: 50%;
+    max-width: 100%;
+  }
+}
+
+.post-button-container {
+  position: absolute;
+  bottom: 4em;
+  right: 2em;
+}
+// comentarios
+.tip {
+  width: 0px;
+  height: 0px;
+  position: relative;
+  border: 10px solid $block-color;
+  top: 7px;
+  left: -40%;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+.post-buttons-container {
+  width: 100px;
+  display: flex;
+  justify-content: flex-end;
+}

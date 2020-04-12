@@ -1,0 +1,43 @@
+.profile__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.card-profile {
+  padding: 0 2em 1em 2em;
+  color: $font-color;
+  background-color: $forms-color;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+
+  &__image {
+    position: relative;
+    top: -5em;
+    left: -2em;
+    height: 4em;
+    width: 4em;
+    margin: 1em;
+
+    & img {
+      height: 8em;
+      width: 8em;
+      min-width: 100%;
+      background-color: aquamarine;
+      border-radius: 50%;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+    }
+  }
+  &__body {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__column {
+    padding: 0.4em;
+  }
+}
+.profile-photo-button {
+  position: relative;
+  top: -7em;
+  right: -7em;
+}
